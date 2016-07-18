@@ -11,25 +11,18 @@
         android:id="@+id/textView1"
         android:layout_gravity="center"
         android:textColor="#ff0875f6"
-        android:text="               Мобильный кошелек"
-        android:textStyle="bold"
-        android:typeface="sans" />
-    <ImageView
-        android:src="@android:drawable/ic_menu_gallery"
+        android:text="                       Помощь"
+        android:textStyle="bold" />
+    <CheckedTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView1" />
+        android:id="@+id/checkedTextView1" />
     <Button
-        android:text="Расходы"
+        android:text="Столкнулись с проблемой?"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button1"
         android:background="@drawable/Button" />
-    <ImageView
-        android:src="@android:drawable/ic_menu_gallery"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView2" />
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,33 +31,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/gallery1" />
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkedTextView2" />
     <Button
-        android:text="Лист расходов"
+        android:text="Есть пожелания?"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button2"
-        android:background="@drawable/Button" />
-    <ImageView
-        android:src="@android:drawable/ic_menu_gallery"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView3" />
-    <Button
-        android:text="Помощь"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button3"
-        android:background="@drawable/Button" />
-    <ImageView
-        android:src="@android:drawable/ic_menu_gallery"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView4" />
-    <Button
-        android:text="Информация о приложении"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button4"
         android:background="@drawable/Button" />
     <Gallery
         android:layout_width="match_parent"

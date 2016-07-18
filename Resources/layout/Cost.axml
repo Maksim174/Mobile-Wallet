@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Олли - основа скейтбординга, без него вы не сможете выполнить большую часть трюков. Как правило это самый первый трюк которому начинают учиться встав на доску."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <TextView
+        android:text="Шаг 1."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="#ffff0000" />
+    <TextView
+        android:text="Поставьте заднюю ногу на хвост доски, а переднюю - приблизительно посередине доски или чуть ближе к передним болтам."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+    <TextView
+        android:text="Шаг 2."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="#ffff0000" />
+    <TextView
+        android:text="Начинайте сгибать ноги в коленях и приседать. В этот же момент щелкайте по тейлу задней ногой и сразу же начинайте придерживать нос доски передней ногой выводящим движением."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4" />
+    <TextView
+        android:text="Шаг 3."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="#ffff0000" />
+    <TextView
+        android:text="Прижимаете колени к груди и приземляйтесь на землю. Старайтесь это делать обеими ногами одновременно и ставить ноги ближе к подвескам."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+</LinearLayout>
