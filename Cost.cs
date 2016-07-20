@@ -1,26 +1,6 @@
-﻿
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System; using System.Linq;
+using System.Text; using Android.App; using Android.Content;
+using Android.OS; using Android.Widget;   namespace Mobile_Wallet { 	[Activity(Label = "Cost")] 	public class Cost : Activity 	{ 		int i = 0; 		decimal[] rashod = new decimal[0]; 		decimal a, sum;  		EditText editText1, editText2; 		Button button1, button2;  		protected override void OnCreate(Bundle savedInstanceState) 		{ 			base.OnCreate(savedInstanceState); 			SetContentView(Resource.Layout.Cost); 			editText1 = FindViewById<EditText>(Resource.Id.editText1); 			editText2 = FindViewById<EditText>(Resource.Id.editText2); 			button1 = FindViewById<Button>(Resource.Id.button1); 			button1.Click += new EventHandler(button1_click); 			button2 = FindViewById<Button>(Resource.Id.button2); 			button2.Click += new EventHandler(button2_click);  		} 		void button1_click(object sender, System.EventArgs e) 		{ 			a = Convert.ToDecimal(editText1.Text); 			Array.Resize<decimal>(ref rashod, rashod.Length + 1); 			rashod[rashod.Length - 1] = a; 			i = i + 1; 			editText1.Text = "";
+		} 		void button2_click(object sender, System.EventArgs e) 		{ 			sum = rashod.Sum(); 			editText2.Text = sum.ToString(); 		}
 
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-
-namespace Mobile_Wallet
-{
-	[Activity(Label = "Cost")]
-	public class Cost : Activity
-	{
-		protected override void OnCreate(Bundle savedInstanceState)
-		{
-			base.OnCreate(savedInstanceState);
-			SetContentView(Resource.Layout.Cost);
-		}
-	}
-}
-
+	}  } 

@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffffff">
+    android:background="@drawable/walpaper2">
     <TextView
         android:text="Функции которые планируются в следующих обновлениях (в порядке убывания приоритета):"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -12,26 +12,26 @@
         android:id="@+id/textView1"
         android:textColor="#ff000000" />
     <TextView
-        android:text="   1) График расходов за День/Неделю/Месяц"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
-        android:textColor="#ffff6969" />
+        android:textColor="#ffff001a"
+        android:text=" 1) График расходов за День/Неделю/Месяц" />
     <TextView
-        android:text="   2) Плавная анимация переходов между экранами"
+        android:text=" 2) Плавная анимация переходов между экранами"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
-        android:textColor="#ffff6969" />
+        android:textColor="#ffff001a" />
     <TextView
-        android:text="   3) Поддержка устройств с версией прошивки ниже Android 2.3"
+        android:text=" 3) Поддержка устройств с версией прошивки ниже Android 2.3"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
-        android:textColor="#ffff6969" />
+        android:textColor="#ffff001a" />
     <TextView
         android:text="Что возможно будет сделано в будущем:"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -40,19 +40,19 @@
         android:id="@+id/textView3"
         android:textColor="#ff000000" />
     <TextView
-        android:text="   1) Версии для других ОС"
+        android:text=" 1) Версии для других ОС"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
-        android:textColor="#ffff6969" />
+        android:textColor="#ffff001a" />
     <TextView
-        android:text="   2) Возможность прикрепить фото к операции"
+        android:text=" 2) Возможность прикрепить фото к операции"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
-        android:textColor="#ffff6969" />
+        android:textColor="#ffff001a" />
     <TextView
         android:text="Есть еще идеи или считаете, что список приоритетных функций должен быть другой?"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -61,7 +61,7 @@
         android:id="@+id/textView4"
         android:textColor="#ff000000" />
     <TextView
-        android:text="Тогда напишите свое видение будующего программы автору на электронную почту:"
+        android:text="Тогда напишите свое видение будующего программы автору:"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -74,5 +74,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
-        android:textColor="#ff0054ff" />
+        android:textColor="#ff002eff" />
 </LinearLayout>

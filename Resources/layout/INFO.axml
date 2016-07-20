@@ -3,19 +3,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffffff"
+    android:background="@drawable/walpaper2"
     android:id="@+id/linearLayout1">
     <TextView
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView1" />
-    <TextView
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textColor="#ffff0000" />
+        android:layout_height="87.3dp"
+        android:id="@+id/textView1"
+        android:layout_marginBottom="26.0dp" />
     <TextView
         android:text="             МОБИЛЬНЫЙ КОШЕЛЕК "
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -46,9 +41,4 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
         android:textColor="#ff000000" />
-    <TextView
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView5" />
 </LinearLayout>

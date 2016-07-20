@@ -3,19 +3,9 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffffff">
-    <TextView
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView1"
-        android:layout_gravity="center"
-        android:textColor="#ff0875f6"
-        android:text="               Мобильный кошелек"
-        android:textStyle="bold"
-        android:typeface="sans" />
+    android:background="@drawable/walpaper2">
     <ImageView
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/page1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageView1" />
@@ -25,11 +15,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/button1"
         android:background="@drawable/Button" />
-    <ImageView
-        android:src="@android:drawable/ic_menu_gallery"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView2" />
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,14 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/gallery1" />
-    <Button
-        android:text="Лист расходов"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:background="@drawable/Button" />
     <ImageView
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/page3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageView3" />
@@ -56,7 +35,7 @@
         android:id="@+id/button3"
         android:background="@drawable/Button" />
     <ImageView
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/page4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageView4" />

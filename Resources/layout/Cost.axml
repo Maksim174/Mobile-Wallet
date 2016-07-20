@@ -2,50 +2,54 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/walpaper2">
     <TextView
-        android:text="Олли - основа скейтбординга, без него вы не сможете выполнить большую часть трюков. Как правило это самый первый трюк которому начинают учиться встав на доску."
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Введите сколько вы сейчас потратили:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView1" />
+        android:id="@+id/textView1"
+        android:textColor="#ff000000"
+        android:gravity="center" />
     <TextView
-        android:text="Шаг 1."
+        android:text="Р"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textColor="#ffff0000" />
-    <TextView
-        android:text="Поставьте заднюю ногу на хвост доски, а переднюю - приблизительно посередине доски или чуть ближе к передним болтам."
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView3" />
-    <TextView
-        android:text="Шаг 2."
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
-        android:textColor="#ffff0000" />
-    <TextView
-        android:text="Начинайте сгибать ноги в коленях и приседать. В этот же момент щелкайте по тейлу задней ногой и сразу же начинайте придерживать нос доски передней ногой выводящим движением."
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff000000" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="250.7dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:textColor="#ff000000"
+        android:gravity="right" />
+    <Button
+        android:text="Ввод"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView4" />
-    <TextView
-        android:text="Шаг 3."
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/button1"
+        android:background="@drawable/Button" />
+    <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textColor="#ffff0000" />
-    <TextView
-        android:text="Прижимаете колени к груди и приземляйтесь на землю. Старайтесь это делать обеими ногами одновременно и ставить ноги ближе к подвескам."
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/space1" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="246.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:textColor="#ff000000" />
+    <Button
+        android:text="Сколько вы всего потратили?"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView5" />
+        android:id="@+id/button2"
+        android:background="@drawable/Button" />
+    <QuickContactBadge
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quickContactBadge1" />
 </LinearLayout>
